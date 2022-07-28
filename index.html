@@ -28,7 +28,7 @@
 
   <body>
 
-    <header class="vh-100 container">
+    <header class="container">
         <!------------ Navigation Bar ------------------------------------>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid ">
@@ -40,24 +40,24 @@
           </button>
           <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Deals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Success</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">About</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Deals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Success</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">About</a>
+                </li>
             </ul>
 
                         <!-- Button register modal -->
@@ -92,8 +92,8 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Register now</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Register now</button>
                     </div>
                 </div>
                 </div>
@@ -102,7 +102,7 @@
         </div>
       </nav>
 
-      <!------------ Banner Craousel Section ------------------------------------>
+      <!------------ Banner Craousel ------------------------------------>
     <section id="myCarousel" class="carousel slide" data-bs-ride="carousel">
        <div>
          <div class="carousel-indicators">
@@ -159,8 +159,11 @@
     </header>
 
     <main class="container">
-        <!------------ Courses Section ------------------------------------>
-        <section class="my-5">
+
+        <!---------------------------------------------------
+             SECTION: OUR COURSES
+        ----------------------------------------------------->    
+        <section class="my-5 py-5">
             <div class="text-center my-5">
                 <h2 class="fs-1">Discover Our Popular Courses</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
@@ -172,7 +175,7 @@
                       <div class="card">
                         <div class="row row-cols-1">
                             <div class="col-md-4">
-                              <img src="images/course/my-project.jpg" class="img-fluid rounded-start Height mw-100 mh-100" alt="Course 1">
+                              <img src="images/course/my-project.jpg" class="img-fluid rounded-start" alt="Course 1">
                             </div>
                             <div class="col-md-8">
                               <div class="card-body">
@@ -277,8 +280,10 @@
             </div>
         </section>
 
-        <!-- Explore The learning Institute ----------------------------------------->
-        <section class="container">
+        <!---------------------------------------------------
+             SECTION: EXPLORE THE LEARNING INSTITUTE
+        ----------------------------------------------------->    
+        <section class="container my-5 py-5">
             <div class="row row-cols-1">
                 <div class="col col-md-6">
                     <img src="images/working.png" class="img-fluid" alt="">
@@ -306,72 +311,68 @@
                     <div>
                         <a href="" class="btn btn-primary">Read more</a>
                     </div>
-
                 </div>
-
             </div>
         </section>
 
-
-        <!-- Ready to join ----------------------------------------->
-
-        <section class="bg-info my-5 p-5 rounded-3">
+        <!---------------------------------------------------
+             SECTION: READY TO JOIN (INCLUDING MODAL)
+        ----------------------------------------------------->
+        <section class="my-5 py-5">
+        <div class="bg-info my-5 p-5 rounded-3">
             <div class="container">
                 <div class="row row-cols-1">
                     <div class="col d-flex flex-column justify-content-center align-items-center">
                         <h5>Ready to join?</h5>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                     </div>
-                    <!-- Button register modal -->
+                    <!-- Button register (modal) -------------------->
                     <div class="col d-flex align-items-center justify-content-center justify-content-md-end">
                         <a href="" class="btn btn-light btn-lg me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Read more</a>
                     </div>
                                     
                     
-                                <!-- Modal -------------------------------------->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <a class="navbar-brand fw-bold" href="#">
-                                                <img src="images/logo-persuit.png" alt="" width="30" height="24" class="d-inline-block align-text-top">Pursuit of tech
-                                            </a>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <form class="form-signin">
-                                                <h1 class="h3 mb-3 fw-normal">Please register now</h1>
+                    <!-- Modal -------------------------------------->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <a class="navbar-brand fw-bold" href="#">
+                                        <img src="images/logo-persuit.png" alt="" width="30" height="24" class="d-inline-block align-text-top">Pursuit of tech
+                                    </a>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="form-signin">
+                                        <h1 class="h3 mb-3 fw-normal">Please register now</h1>
                                             
-                                                <div class="form-floating">
+                                            <div class="form-floating">
                                                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                                                 <label for="floatingInput">Email address</label>
-                                                </div>
-                                                <br>
-                                                <div class="form-floating">
+                                            </div>
+                                            <br>
+                                            <div class="form-floating">
                                                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                                                 <label for="floatingPassword">Password</label>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Register now</button>
-                                        </div>
-                                    </div>
-                                    </div>
+                                            </div>
+                                    </form>
                                 </div>
-
-
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Register now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
+        </div>
+    </section>
 
-        </section>
-
-
-        <!-- Ask Question -->
-
-        <section class="mt-5">
+        <!---------------------------------------------------
+             SECTION: FREQUENTLLY ASK QUESTIONS
+        ----------------------------------------------------->
+        <section class="mt-5 py-5">
             <div class="text-center my-5">
                 <h2 class="fs-h1 fw-bold">Frequently Asked Questions</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable 
@@ -455,10 +456,52 @@
                   </div>
                 </div>
               </div>
-
         </section>
 
+        <!----------------------------------------
+             SECTION: TRUSTED COMPANIES 
+        ----------------------------------------->
+
+        <section class="my-5 py-5 d-none d-lg-block">
+            <h2 class="h1 fw-bold my-5 text-center">Trusted by over 800+ companie</h2>
+            <div class="d-flex justify-content-between">
+                <img src="images/company/company-1.png" alt="">
+                <img src="images/company/company-2.png" alt="">
+                <img src="images/company/company-3.png" alt="">
+                <img src="images/company/company-4.png" alt="">
+                <img src="images/company/company-5.png" alt="">
+                <img src="images/company/company-6.png" alt="">
+            
+            </div>
+        </section>
     </main>
+
+
+
+    
+    <!---- Footer ----------------->     
+    <footer class="bg-dark p-5 d-flex flex-column align-items-center">
+        <h1 class="fs-h5 text-light">Pursuit of tech</h1>
+        <hr>
+        <div class="footer-links text-decoration-none text-light">
+            <a class="text-light text-decoration-none m-3" href="">Contact Us</a>
+            <a class="text-light text-decoration-none m-3" href="">Terms of Service</a>
+            <a class="text-light text-decoration-none m-3" href="">Privacy Policy</a>
+            <a class="text-light text-decoration-none m-3" href="">Privacy Settings </a>
+            <a class="text-light text-decoration-none m-3" href="">Our App</a>
+        </div>
+        <br>
+        <div>
+            <span class="text-light d-flex justify-content-center">Follow us on</span>
+            <div class="d-flex">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square text-light m-2 fs-5"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter-square text-light m-2 fs-5"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram-square text-light m-2 fs-5"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin text-light m-2 fs-5"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube-square text-light m-2 fs-5"></i></a>
+            </div>
+        </div>
+    </footer>
     
 
 

@@ -15,7 +15,7 @@
   }
 
 
-  .fit-image{
+  /* .fit-image{
     width: 100%;
     object-fit: cover;
     height: 300px;
@@ -26,7 +26,7 @@
   height: auto;
 } */
 
-.img-fluid {
+/* .img-fluid {
     max-width: 100%;
     height: auto
-  }
+  }  */
