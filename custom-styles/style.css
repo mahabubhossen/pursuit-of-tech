@@ -1,18 +1,66 @@
 
-/* .custom-img-dark-color{
-    filter: brightness(60%);
-} */
 
-.custom-img-drk-color::before {
-    content:"";
-    position:absolute;
-    display: block;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.5);
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+/* Since positioning the image, we need to help out the caption */
+.custom-carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.custom-carousel-item {
+  height: 32rem;
+}
+.custom-carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  Filter: brightness(50%);
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .custom-carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
   }
+
+}
+
+
+
+.btn-primary{
+  background-color: #ffffff;
+  color: #3F87F5;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+
+
+.custom-text-color-1{
+  color: #4A4A4A;
+}
+.custom-text-color-2{
+  color: #777777;
+}
+
+.custom-text-color-3{
+  color: red;
+}
+
+
 
 
   /* .fit-image{
