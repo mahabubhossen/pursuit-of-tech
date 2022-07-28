@@ -3,15 +3,11 @@
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-
-/* Since positioning the image, we need to help out the caption */
 .custom-carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
 .custom-carousel-item {
   height: 32rem;
 }
@@ -39,15 +35,8 @@
 }
 
 
-
-.btn-primary{
-  background-color: #ffffff;
-  color: #3F87F5;
-  font-weight: 700;
-  font-size: 1.2rem;
-}
-
-
+/* CUSTOM COLOR
+-------------------------------------------------- */
 
 .custom-text-color-1{
   color: #4A4A4A;
@@ -56,25 +45,9 @@
   color: #777777;
 }
 
-.custom-text-color-3{
-  color: red;
+.custom-ratings-color{
+  color: #F59E0B;
 }
-
-
-
-
-  /* .fit-image{
-    width: 100%;
-    object-fit: cover;
-    height: 300px;
-  }
-
-/* .fit-image{
-  max-width: 100%;
-  height: auto;
-} */
-
-/* .img-fluid {
-    max-width: 100%;
-    height: auto
-  }  */
+.custom-background-color{
+  background-color: #f0f7fa;
+}
